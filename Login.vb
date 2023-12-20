@@ -3,8 +3,12 @@ Imports System.Windows.Forms.VisualStyles
 Imports MySql.Data.MySqlClient
 Public Class Login
 
+<<<<<<< HEAD
+    Dim connectionString As String = "Server=192.168.96.130;Database=voting_database;User ID=Henry;Password=1234567;"
+=======
 
     Dim connectionString As String = "Server=localhost;Database=voting_database;User ID=Henry;Password=1234567;"
+>>>>>>> 62815afde518d828e494931f4c7b25e4b191e15a
 
 
 
