@@ -1,6 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 Public Class frmSubmit
-    Dim connectionString As String = "Server=localhost;Database=voting_database;User ID=Henry;Password=1234567;"
+    Dim connectionString As String = "Server=192.168.96.130;Database=voting_database;User ID=Henry;Password=1234567;"
 
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
         Dim presidential As Integer = VoteVariables.presidentialCand
@@ -35,4 +35,6 @@ Public Class frmSubmit
 
 
     End Sub
+
+
 End Class

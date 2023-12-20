@@ -3,7 +3,7 @@ Imports System.Windows.Forms.VisualStyles
 Imports MySql.Data.MySqlClient
 Public Class Login
 
-    Dim connectionString As String = "Server=localhost;Database=voting_database;User ID=Henry;Password=1234567;"
+    Dim connectionString As String = "Server=192.168.96.130;Database=voting_database;User ID=Henry;Password=1234567;"
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         Dim studentId As String = txtStudentId.Text
